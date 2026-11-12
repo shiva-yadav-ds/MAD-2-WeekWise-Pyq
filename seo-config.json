@@ -1,0 +1,197 @@
+{
+  "weeks": [
+    {
+      "id": 1,
+      "topic": "Basics of JavaScript",
+      "count": 16,
+      "summary": "Practice Week 1 Application Development-2 questions with complete source code, options and shared comprehension context.",
+      "topics": [
+        "Variables, scope and hoisting",
+        "Types, operators and functions",
+        "Object references and loops"
+      ],
+      "guide": [
+        "Trace the exact code, runtime and framework version given in each question.",
+        "Follow the specified event order, state changes and API responses before choosing an option.",
+        "Attempt each question before checking its supplied answer key."
+      ]
+    },
+    {
+      "id": 2,
+      "topic": "Advanced JavaScript",
+      "count": 114,
+      "summary": "Practice Week 2 Application Development-2 questions with complete source code, options and shared comprehension context.",
+      "topics": [
+        "Closures and lexical scope",
+        "this, call, apply and bind",
+        "Classes, prototypes, destructuring and modules",
+        "Promises, callbacks, event loop and async/await"
+      ],
+      "guide": [
+        "Trace the exact code, runtime and framework version given in each question.",
+        "Follow the specified event order, state changes and API responses before choosing an option.",
+        "Attempt each question before checking its supplied answer key."
+      ]
+    },
+    {
+      "id": 3,
+      "topic": "Introduction to Web Frontend",
+      "count": 23,
+      "summary": "Practice Week 3 Application Development-2 questions with complete source code, options and shared comprehension context.",
+      "topics": [
+        "DOM and browser events",
+        "localStorage and sessionStorage",
+        "SPA/PWA and browser runtime APIs"
+      ],
+      "guide": [
+        "Trace the exact code, runtime and framework version given in each question.",
+        "Follow the specified event order, state changes and API responses before choosing an option.",
+        "Attempt each question before checking its supplied answer key."
+      ]
+    },
+    {
+      "id": 4,
+      "topic": "Introduction to VueJS",
+      "count": 55,
+      "summary": "Practice Week 4 Application Development-2 questions with complete source code, options and shared comprehension context.",
+      "topics": [
+        "Templates and directives",
+        "Components and data binding",
+        "Computed properties and reactivity"
+      ],
+      "guide": [
+        "Trace the exact code, runtime and framework version given in each question.",
+        "Follow the specified event order, state changes and API responses before choosing an option.",
+        "Attempt each question before checking its supplied answer key."
+      ]
+    },
+    {
+      "id": 5,
+      "topic": "Vue with APIs",
+      "count": 14,
+      "summary": "Practice Week 5 Application Development-2 questions with complete source code, options and shared comprehension context.",
+      "topics": [
+        "Fetch API, JSON and REST",
+        "Response/error handling",
+        "CORS and API integration with Vue"
+      ],
+      "guide": [
+        "Trace the exact code, runtime and framework version given in each question.",
+        "Follow the specified event order, state changes and API responses before choosing an option.",
+        "Attempt each question before checking its supplied answer key."
+      ]
+    },
+    {
+      "id": 6,
+      "topic": "Advanced VueJS",
+      "count": 72,
+      "summary": "Practice Week 6 Application Development-2 questions with complete source code, options and shared comprehension context.",
+      "topics": [
+        "Lifecycle hooks and watchers",
+        "Slots, props and custom events",
+        "Forms and Vue Router"
+      ],
+      "guide": [
+        "Trace the exact code, runtime and framework version given in each question.",
+        "Follow the specified event order, state changes and API responses before choosing an option.",
+        "Attempt each question before checking its supplied answer key."
+      ]
+    },
+    {
+      "id": 7,
+      "topic": "Advanced State Management",
+      "count": 28,
+      "summary": "Practice Week 7 Application Development-2 questions with complete source code, options and shared comprehension context.",
+      "topics": [
+        "Vuex state, getters and mutations",
+        "Actions and shared state",
+        "System, application and ephemeral state"
+      ],
+      "guide": [
+        "Trace the exact code, runtime and framework version given in each question.",
+        "Follow the specified event order, state changes and API responses before choosing an option.",
+        "Attempt each question before checking its supplied answer key."
+      ]
+    },
+    {
+      "id": 8,
+      "topic": "Authentication and Designing APIs",
+      "count": 25,
+      "summary": "Practice Week 8 Application Development-2 questions with complete source code, options and shared comprehension context.",
+      "topics": [
+        "JWT, authentication and authorization",
+        "API security and secure cookies",
+        "GraphQL and API design"
+      ],
+      "guide": [
+        "Trace the exact code, runtime and framework version given in each question.",
+        "Follow the specified event order, state changes and API responses before choosing an option.",
+        "Attempt each question before checking its supplied answer key."
+      ]
+    },
+    {
+      "id": 9,
+      "topic": "Asynchronous Jobs",
+      "count": 8,
+      "summary": "Practice Week 9 Application Development-2 questions with complete source code, options and shared comprehension context.",
+      "topics": [
+        "Celery workers and Beat",
+        "Redis broker and result backend",
+        "Background tasks and task results"
+      ],
+      "guide": [
+        "Trace the exact code, runtime and framework version given in each question.",
+        "Follow the specified event order, state changes and API responses before choosing an option.",
+        "Attempt each question before checking its supplied answer key."
+      ]
+    },
+    {
+      "id": 10,
+      "topic": "Inter-Service Messaging and Webhooks",
+      "count": 11,
+      "summary": "Practice Week 10 Application Development-2 questions with complete source code, options and shared comprehension context.",
+      "topics": [
+        "Webhooks and message brokers",
+        "SSE, WebSockets and polling",
+        "Inter-service notification patterns"
+      ],
+      "guide": [
+        "Trace the exact code, runtime and framework version given in each question.",
+        "Follow the specified event order, state changes and API responses before choosing an option.",
+        "Attempt each question before checking its supplied answer key."
+      ]
+    },
+    {
+      "id": 11,
+      "topic": "Performance",
+      "count": 14,
+      "summary": "Practice Week 11 Application Development-2 questions with complete source code, options and shared comprehension context.",
+      "topics": [
+        "Caching and memoization",
+        "Lighthouse and load metrics",
+        "Server response timing and performance"
+      ],
+      "guide": [
+        "Trace the exact code, runtime and framework version given in each question.",
+        "Follow the specified event order, state changes and API responses before choosing an option.",
+        "Attempt each question before checking its supplied answer key."
+      ]
+    },
+    {
+      "id": 12,
+      "topic": "Project",
+      "count": 4,
+      "summary": "Practice Week 12 Application Development-2 questions with complete source code, options and shared comprehension context.",
+      "topics": [
+        "Git branching and merging",
+        "Unit, end-to-end and cross-browser testing",
+        "Vue project build and development workflow"
+      ],
+      "guide": [
+        "Trace the exact code, runtime and framework version given in each question.",
+        "Follow the specified event order, state changes and API responses before choosing an option.",
+        "Attempt each question before checking its supplied answer key."
+      ]
+    }
+  ]
+}
