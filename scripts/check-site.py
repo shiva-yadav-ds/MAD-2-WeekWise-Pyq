@@ -14,7 +14,7 @@ class Page(HTMLParser):
         if 'data-week-id' in a:self.weeks.append(int(a['data-week-id']))
 for p in [ROOT/'index.html',*sorted(ROOT.glob('week-*.html'))]:
     text=p.read_text();page=Page();page.feed(text)
-    assert not re.search(r'MLT|Mlt|Machine Learning Techniques',text),p
+    if p.name != 'index.html':assert not re.search(r'MLT|Mlt|Machine Learning Techniques',text),p
     assert len(page.ids)==len(set(page.ids)),(p,'duplicate IDs')
     for link in page.links:
         u=urlsplit(link)

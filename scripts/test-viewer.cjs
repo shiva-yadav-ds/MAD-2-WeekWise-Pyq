@@ -5,7 +5,7 @@ const path = require('node:path');
 function element() {
   const classes=new Set();
   return {classList:{add:x=>classes.add(x),remove:x=>classes.delete(x),contains:x=>classes.has(x),toggle(x,on){if(on===undefined)on=!classes.has(x);on?classes.add(x):classes.delete(x);}},
-    events:{},children:[],dataset:{},addEventListener(k,f){this.events[k]=f},setAttribute(k,v){this[k]=v},removeAttribute(k){delete this[k]},appendChild(e){this.children.push(e)},removeChild(){},querySelectorAll(){return []},click(){this.events.click?.()}};
+    events:{},children:[],dataset:{},clientWidth:500,addEventListener(k,f){this.events[k]=f},setAttribute(k,v){this[k]=v},removeAttribute(k){delete this[k]},appendChild(e){this.children.push(e)},removeChild(){},querySelectorAll(){return []},scrollBy(options){this.scrollOptions=options},click(){this.events.click?.()}};
 }
 for (const width of [1280,390]) {
   const els={}; const body=element();
@@ -14,6 +14,8 @@ for (const width of [1280,390]) {
   const context=vm.createContext({document,window,URLSearchParams,console});
   vm.runInContext(fs.readFileSync(path.join(__dirname,'../app.js'),'utf8'),context);
   vm.runInContext('init()',context);
+  els.subjectScrollPrev.click();assert.equal(els.subjectLinks.scrollOptions.left,-360);assert.equal(els.subjectLinks.scrollOptions.behavior,'smooth');
+  els.subjectScrollNext.click();assert.equal(els.subjectLinks.scrollOptions.left,360);assert.equal(els.subjectLinks.scrollOptions.behavior,'smooth');
   assert.equal(els.drawerWeeksList.children.length,12);
   for(let w=1;w<=12;w++){
     vm.runInContext(`selectWeek(${w})`,context);
